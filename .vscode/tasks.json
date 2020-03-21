@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "EscapeGame Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win32",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Win64",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"Android",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGame HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGame HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGame",
+				"HTML5",
+				"Test",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "EscapeGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EscapeGameEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sauli\\Desktop\\CppCode-Unreal Course\\ScapeGameProject\\EscapeGame\\EscapeGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		}
+	]
+}
